@@ -11,7 +11,6 @@ import java.util.Optional;
 
 @Service
 public class AppointmentServiceImpl implements AppointmentService {
-
   @Autowired
   private AppointmentRepository appointmentRepository;
   @Override
