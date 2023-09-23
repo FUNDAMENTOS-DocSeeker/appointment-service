@@ -18,6 +18,7 @@ import java.util.List;
 @RequestMapping("api/appointment")
 @AllArgsConstructor
 public class AppointmentController {
+  
   private AppointmentService appointmentService;
   private AppointmentMapper mapper;
 
