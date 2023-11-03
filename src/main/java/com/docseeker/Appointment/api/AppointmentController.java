@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin()
-@RequestMapping("api/appointment")
+@RequestMapping("api/v1/appointments")
 @AllArgsConstructor
 public class AppointmentController {
 
